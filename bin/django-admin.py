@@ -1,4 +1,4 @@
-#!/srv/deployment/sentry/sentry/bin/python
+#!/srv/deployment/sentry/sentry/bin/python2
 from django.core import management
 
 if __name__ == "__main__":

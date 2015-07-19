@@ -1,10 +1,10 @@
-#!/srv/deployment/sentry/sentry/bin/python
-# EASY-INSTALL-ENTRY-SCRIPT: 'sentry==7.4.3','console_scripts','sentry'
-__requires__ = 'sentry==7.4.3'
+#!/srv/deployment/sentry/sentry/bin/python2
+# EASY-INSTALL-ENTRY-SCRIPT: 'sentry==7.6.2','console_scripts','sentry'
+__requires__ = 'sentry==7.6.2'
 import sys
 from pkg_resources import load_entry_point
 
 if __name__ == '__main__':
     sys.exit(
-        load_entry_point('sentry==7.4.3', 'console_scripts', 'sentry')()
+        load_entry_point('sentry==7.6.2', 'console_scripts', 'sentry')()
     )

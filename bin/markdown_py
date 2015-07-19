@@ -1,4 +1,4 @@
-#!/srv/deployment/sentry/sentry/bin/python
+#!/srv/deployment/sentry/sentry/bin/python2
 """
 Python Markdown, the Command Line Script
 ========================================
