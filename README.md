@@ -9,7 +9,9 @@
 5. Go to that folder and run "virtualenv --system-site-packages sentry" to create the venv
 6. Run "source sentry/bin/activate" to activate the venv
 7. Run "pip install sentry[postgres]" to install the latest version of Sentry and its dependencies into the venv with postgres support
-8. Set up git-review in the /srv/deployment/sentry/sentry folder and commit the changes to this repository
+8. Run "virtualenv --relocatable sentry" to rewrite the file references to relative
+9. Copy the extra files from the repo (TODO: these should probably be in a separate project or branch): README.md list-debian-packages.py requirements_list.py requirements_map.py
+10. Set up git-review in the /srv/deployment/sentry/sentry folder and commit the changes to this repository
 
 ### System dependencies ###
 
