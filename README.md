@@ -15,7 +15,7 @@
 
 ### System dependencies ###
 
-The following dependencies are currently (2015-07-20) available as Debian packages in Jessie and meet Sentry 7.6.2's requirements:
+The following dependencies are currently (2015-07-30) available as Debian packages in Jessie and meet Sentry 7.7.0's requirements:
 
 * python-beautifulsoup
 * python-celery

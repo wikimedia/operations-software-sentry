@@ -2,12 +2,12 @@
 
 import os; activate_this=os.path.join(os.path.dirname(os.path.realpath(__file__)), 'activate_this.py'); exec(compile(open(activate_this).read(), activate_this, 'exec'), dict(__file__=activate_this)); del os, activate_this
 
-# EASY-INSTALL-ENTRY-SCRIPT: 'sentry==7.6.2','console_scripts','sentry'
-__requires__ = 'sentry==7.6.2'
+# EASY-INSTALL-ENTRY-SCRIPT: 'sentry==7.7.0','console_scripts','sentry'
+__requires__ = 'sentry==7.7.0'
 import sys
 from pkg_resources import load_entry_point
 
 if __name__ == '__main__':
     sys.exit(
-        load_entry_point('sentry==7.6.2', 'console_scripts', 'sentry')()
+        load_entry_point('sentry==7.7.0', 'console_scripts', 'sentry')()
     )
